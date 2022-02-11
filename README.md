@@ -1,10 +1,10 @@
 ### Hi there 👋
 
 🌱 Current learning goals:
-- Rust for games: [Bevy](https://github.com/bevyengine/bevy)) - I'd like to move away from C++ (UB, poor tooling) & scripting languages (inefficient, lack static typing)
-- Backend: [Rocket](https://rocket.rs/), [Diesel](https://github.com/diesel-rs/diesel)) [AWS Lambda](https://github.com/awslabs/aws-lambda-rust-runtime)), [Krustlet](https://github.com/krustlet/krustlet) - Rust promises very fast cold starts for serverless environments, I'd like to see if it can remove the need for server management and keep costs down at the same time? On container size, it offers very small images (few runtime dependencies) and potentially the ability to run WASM builds in Kubernetes directly.
-- Embedded: I haven't chosen a tech stack here yet, but I'd like to see a move from C mostly due to poor tooling. I want a good package manager and build tools to do rapid development while maintaining performance.
-- Frontend: WASM offers promises of greater performance here, I wonder if it holds water. Frontend is still mostly JS/TS and I'm not sure if it's the right time to change. Maybe only for games/CAD and other tools that need efficiency?
+- Rust for games: [Bevy](https://github.com/bevyengine/bevy) - I'd like to move away from C++ (UB, poor tooling) & scripting languages (inefficient, lack static typing)
+- Backend: [Rocket](https://rocket.rs/), [Diesel](https://github.com/diesel-rs/diesel) [AWS Lambda](https://github.com/awslabs/aws-lambda-rust-runtime), [Krustlet](https://github.com/krustlet/krustlet) - Rust promises very fast cold starts for serverless environments. I'd like to see if it can completely remove the need for server management and keep costs down at the same time. On container size, it offers very small images (few runtime dependencies) and potentially the ability to run WASM builds in Kubernetes directly.
+- Embedded: I haven't chosen a tech stack here yet, but I'd like to see a move from C mostly due to poor tooling. I want a good package manager and build tools to do rapid firmware development while maintaining performance.
+- Frontend: WASM offers promises of greater performance here, but I wonder if let's us keep up the rapid development frontend needs. Frontend is still mostly JS/TS and I'm not sure if it's the right time to change. Maybe only for games/CAD and other tools that need efficiency?
 
 🔭 Currently working on:
 - Optimizing & modernizing the [SpringRTS](https://springrts.com/) download infrastructure: Right now my main focus is on improving the metadata fetch times of [pr-downloader](https://github.com/spring/pr-downloader) and replacing it with a more-modern solution written in Rust [sprd](https://github.com/gajop/sprd) & [sprd-backend](https://github.com/gajop/sprd-backend). See the [design](https://github.com/gajop/sprd-backend#sprd-backend) for details.
